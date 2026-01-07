@@ -1,0 +1,56 @@
+# Data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Models
+models/*.pt
+models/*.pth
+models/*.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Outputs (keep structure, ignore large files)
+outputs/*.png
+outputs/*.jpg
+outputs/*.pdf
+!outputs/.gitkeep
+
+# OS
+.DS_Store
+
+# Environment
+.env
+*.log
+
+# Internal documentation (not for public repo)
+*_STATUS.md
+*_SUMMARY.md
+*_PLAN.md
+*SETUP*.md
+*PUHTI*.md
+*GITHUB*.md
+*_STEPS.md
+EXPAND*.md
+EXPANSION*.md
+FINAL*.md
+JOB*.md
+RUNNING*.md
+
+
+
+
+
+
+
