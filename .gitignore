@@ -21,11 +21,14 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
-# Outputs (keep structure, ignore large files)
+# Outputs (keep structure, ignore large files and logs)
 outputs/*.png
 outputs/*.jpg
 outputs/*.pdf
+outputs/slurm_*.err
+outputs/slurm_*.out
 !outputs/.gitkeep
+!outputs/*.json
 
 # OS
 .DS_Store

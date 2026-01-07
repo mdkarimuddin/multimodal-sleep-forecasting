@@ -1,0 +1,20 @@
+{
+  "sleep_efficiency": {
+    "mae": NaN,
+    "rmse": NaN,
+    "r2": NaN,
+    "mape": NaN
+  },
+  "total_sleep_time": {
+    "mae": NaN,
+    "rmse": NaN,
+    "r2": NaN,
+    "mape": NaN
+  },
+  "deep_sleep_pct": {
+    "mae": NaN,
+    "rmse": NaN,
+    "r2": NaN,
+    "mape": NaN
+  }
+}
